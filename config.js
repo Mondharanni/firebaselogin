@@ -13,13 +13,15 @@
  */
 
 var config = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "your-app.firebaseapp.com",
-  databaseURL: "https://your-app.firebaseio.com",
-  storageBucket: "your-app.appspot.com",
+    apiKey: "AIzaSyCtXZm5yeqZ0uKK5ziXYeCZAKdWjuI3QTc",
+    authDomain: "sale-bca48.firebaseapp.com",
+    databaseURL: "https://sale-bca48.firebaseio.com",
+    projectId: "sale-bca48",
+    storageBucket: "sale-bca48.appspot.com",
+    messagingSenderId: "649505529080"
 };
 firebase.initializeApp(config);
 
 // Google OAuth Client ID, needed to support One-tap sign-up.
 // Set to null if One-tap sign-up is not supported.
-var CLIENT_ID = 'YOUR_OAUTH_CLIENT_ID';
+var CLIENT_ID = null;

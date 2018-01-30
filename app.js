@@ -166,10 +166,10 @@ function handleRecaptchaConfigChange() {
  * Initializes the app.
  */
 var initApp = function() {
-  document.getElementById('sign-in-with-redirect').addEventListener(
-      'click', signInWithRedirect);
-  document.getElementById('sign-in-with-popup').addEventListener(
-      'click', signInWithPopup);
+//  document.getElementById('sign-in-with-redirect').addEventListener(
+//      'click', signInWithRedirect);
+//  document.getElementById('sign-in-with-popup').addEventListener(
+//      'click', signInWithPopup);
   document.getElementById('sign-out').addEventListener('click', function() {
     firebase.auth().signOut();
   });

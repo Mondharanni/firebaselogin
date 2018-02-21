@@ -12,15 +12,16 @@
  * limitations under the License.
  */
 
-var config = {
-    apiKey: "AIzaSyCtXZm5yeqZ0uKK5ziXYeCZAKdWjuI3QTc",
-    authDomain: "sale-bca48.firebaseapp.com",
-    databaseURL: "https://sale-bca48.firebaseio.com",
-    projectId: "sale-bca48",
-    storageBucket: "sale-bca48.appspot.com",
-    messagingSenderId: "649505529080"
-};
-firebase.initializeApp(config);
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB2MVaewZFZQFZBDuf1ab2zeH8kxRwS6vs",
+    authDomain: "mightydeposits.firebaseapp.com",
+    databaseURL: "https://mightydeposits.firebaseio.com",
+    projectId: "mightydeposits",
+    storageBucket: "mightydeposits.appspot.com",
+    messagingSenderId: "475267345622"
+  };
+  firebase.initializeApp(config);
 
 // Google OAuth Client ID, needed to support One-tap sign-up.
 // Set to null if One-tap sign-up is not supported.
